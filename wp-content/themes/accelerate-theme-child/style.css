@@ -10,6 +10,12 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 
+body     {
+
+margin-right:0;
+
+}
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
@@ -125,4 +131,185 @@ aside.case-study-sidebar h5{
 div.case-study-images img {
 	width: 100%;
 	height: auto;
+}
+
+/*contact form*/
+
+.nf-form-content{
+  width:700px;
+}
+
+.main-content p{
+  width:700px;
+  padding-bottom: 30px;
+  margin:0px;
+}
+
+.main-content{
+  margin-left:125px;
+}
+
+#nf-field-1-container{
+  width:330px;
+}
+
+#nf-field-2-container{
+  width:330px;
+  float:right;
+  clear:both;
+  position: absolute;
+  right: 345px;
+  top: 305px
+}
+
+#nf-field-4{
+  background-color:#45ac9d;
+  float:right;
+}
+/*about us*/
+
+.about-page-hero-content {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: 450px;
+}
+
+.about-page-hero-content h3{
+  text-align: center;
+  padding-top: 90px;
+  color:white;
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.main-content{
+  width:100%;
+}
+
+.service-overview h2{
+  text-align:center;
+  text-transform: uppercase;
+  font: 400 1em/1.75 'Open Sans';
+  margin: 1em 0 .5em;
+  font-size: 13px;
+  padding-top:50px;
+}
+
+.service-overview p{
+  text-align:center;
+  padding-bottom: 50px;
+  font: 400 1em/1.75 'Open Sans';
+  margin: 1em 0 .5em;
+  font-size: 13px;
+}
+
+#service-1, #service-2, #service-3, #service-4{
+  width: 700px;
+  margin: 0px;
+
+}
+
+#icon-1, #icon-2, #icon-3, #icon-4{
+  width:300px;
+  margin-right:0px;
+}
+
+.our-services p{
+  padding-top: 0px;
+
+}
+
+.service-1 {
+  margin-right:0px;
+  float:right;
+  position: relative;
+  bottom: 100px;
+right: 100px;
+
+}
+
+.service-1 h4 {
+  padding-top:0px;
+  margin: 0px;
+}
+
+.service-1 p{
+  margin:0px;
+
+}
+
+.icon-1{
+  padding: 70px;
+padding-top: 0px;
+padding-left: 30px;
+}
+
+.service-2 {
+  margin:0px;
+
+
+}
+
+.service-2 h4 {
+  padding-top:0px;
+  margin: 0px;
+}
+
+.service-2 p{
+  margin:0px;
+
+}
+
+.icon-2{
+  float:right;
+  width:300px;
+  position: relative;
+left: 600px;
+bottom: 130px;
+}
+
+.service-3 {
+  float:right;
+  position: relative;
+  bottom: 170px
+
+}
+
+.service-3 h4 {
+  padding-top:0px;
+  margin: 0px;
+}
+
+.service-3 p{
+  margin:0px;
+
+}
+
+.service-4 {
+  margin:0px;
+
+
+}
+
+.service-4 h4 {
+  padding-top:0px;
+  margin: 0px;
+}
+
+.service-4 p{
+  margin:0px;
+
+}
+
+.icon-4{
+  float:right;
+  width:300px;
+  position: relative;
+  bottom: 140px;
+}
+
+.work-with-us{
+  border-style: solid;
+
 }
